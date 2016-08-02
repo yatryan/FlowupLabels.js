@@ -1,0 +1,36 @@
+{
+  "name": "flowuplabels.js",
+  "homepage": "https://github.com/yatryan/FlowupLabels.js",
+  "authors": [
+    {
+      "name": "Taylor Ryan",
+      "email": "spiketmr@gmail.com",
+      "url": "https://yatryan.com"
+    },
+    {
+      "name": "Shadi Isber",
+      "email": "shadi@enfos.com",
+      "url": "http://enfos.com"
+    }
+  ],
+  "description": "Augments form labels to behave like placeholders, but with a twist.",
+  "main": [
+    "src/jquery.FlowupLabels.js",
+    "src/jquery.FlowupLabels.css"
+  ],
+  "keywords": [
+    "FlowupLabels",
+    "labels",
+    "floating",
+    "form"
+  ],
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "version": "1.0.0"
+}
