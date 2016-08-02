@@ -10,7 +10,7 @@ Augments form labels to behave like placeholders, but with a twist.
 Original concept by [Matt D. Smith](http://dribbble.com/shots/1254439--GIF-Mobile-Form-Interaction). Inspired by Mike Mitchell's [FloatLabel.js](https://github.com/m10l/FloatLabel.js).
 
 
-Difference in this version: 
+Difference in this version:
 ----
 
 * The label gets out of the user's way immediately on focus
@@ -18,6 +18,13 @@ Difference in this version:
 * This implementation accounts for pre-filled elements on page load (toggleable)
 * Uses semantic labels, not placeholders
 
+
+Install instructions
+-----
+
+``` js
+bower install flowuplabels.js
+```
 
 Usage instructions
 -----
@@ -54,12 +61,12 @@ $('.FlowupLabels').FlowupLabels({
 		if you won't be changing them
 		 */
 		// Handles the possibility of having input boxes prefilled on page load
-		feature_onLoadInit:	true, 
-		
+		feature_onLoadInit:	true,
+
 		// Class when focusing an input
 		class_focused: 		'focused',
 		// Class when an input has text entered
-		class_populated: 	'populated'	
+		class_populated: 	'populated'
 });
 ```
 
@@ -82,4 +89,6 @@ Total: <2kb minified, <1kb gzipped+minified.
 
 © 2013 [ENFOS, Inc.](http://enfos.com)
 
-Licensed under [MIT](https://github.com/ENFOS/FlowupLabels.js/blob/master/LICENSE)
+© 2016 [Taylor Ryan](https://yatryan.com)
+
+Licensed under [MIT](https://github.com/yatryan/FlowupLabels.js/blob/master/LICENSE)
